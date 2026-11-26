@@ -1,6 +1,8 @@
 #ifndef Pin_h
 #define Pin_h
 
+#include <stdint.h>
+
 namespace PIN
 {
     //按钮
@@ -27,3 +29,5 @@ namespace PIN
     //SD模块
     constexpr uint8_t SD_CS = 23;
 }
+
+#endif
